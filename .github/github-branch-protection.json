@@ -1,0 +1,31 @@
+{
+  "protection": {
+    "branch": "main",
+    "enforce_admins": true,
+    "required_linear_history": true,
+    "allow_force_pushes": false,
+    "allow_deletions": false,
+    "required_pull_request_reviews": {
+      "required_approving_review_count": 1,
+      "dismiss_stale_reviews": true,
+      "require_code_owner_reviews": false,
+      "require_last_push_approval": true,
+      "bypass_pull_request_allowances": {}
+    },
+    "required_status_checks": {
+      "strict": true,
+      "contexts": []
+    },
+    "restrictions": {
+      "users": [],
+      "teams": [],
+      "apps": []
+    }
+  },
+  "repository_settings": {
+    "allow_merge_commit": true,
+    "allow_squash_merge": true,
+    "allow_rebase_merge": true,
+    "delete_branch_on_merge": true
+  }
+}
